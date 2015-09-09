@@ -1,0 +1,185 @@
+/*
+ Theme Name:   All Saints Website Child
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  A child theme for the All Saints Main Website
+ Author:       Carl Woodfin
+ Author URI:   http://carlwoodfin.com
+ Template:     AllSaintsTemplate
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fifteen-child
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Schoolbell);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.site-header-outer {
+	background-color: #106EB0;
+    border-bottom: thick solid #FFDB45;
+}
+
+.headeraddress {
+ 	padding-top: 15px;
+    color: #FFDB45;
+}
+
+.headeraddress a {
+	color: #FFDB45;
+}
+.headeraddress a:hover {
+	color: #FFDB45;
+}
+.headeraddress a:visited {
+	color: #FFDB45;
+}
+.headeraddress a:link {
+	color: #FFDB45;
+}
+
+.safeguard-statement {
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer-address {
+  color: #FFDB45;
+  padding-top: 15px;
+  height: 75px;
+  background-color: #0070ba;
+  border-top: thick solid #FFDB45;
+}
+
+.footer-images {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.btn-glyph {
+    background-color: #0070ba;
+    color: #FFDB45;
+}
+
+.btn-glyph:hover, .btn-glyph:focus, .btn-glyph:active, .btn-glyph.active, .open .dropdown-toggle.btn-glyph {
+  background-color: #FFDB45;
+  color: #0070ba;
+ }
+
+ .year-work {
+    font-family: Schoolbell;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+a.list-group-item:hover, a.list-group-item:focus {
+  background-color: #f6f6f6;
+}
+
+/* navbar */
+.navbar-assweb {
+    background-color: #FFDB45;
+    border-color: #E7E7E7;
+}
+/* title */
+.navbar-assweb .navbar-brand {
+    color: #777;
+}
+.navbar-assweb .navbar-brand:hover,
+.navbar-assweb .navbar-brand:focus {
+    color: #fff;
+    background-color: #0070ba;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: #777;
+    background-color: #0070ba;
+}
+.navbar-assweb .navbar-nav > li > a:hover,
+.navbar-assweb .navbar-nav > li > a:focus {
+    color: #fff;
+    background-color: #0070ba;
+}
+.navbar-assweb .navbar-nav > .active > a, 
+.navbar-assweb .navbar-nav > .active > a:hover, 
+.navbar-assweb .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #0070ba;
+}
+.navbar-assweb .navbar-nav > .open > a, 
+.navbar-assweb .navbar-nav > .open > a:hover, 
+.navbar-assweb .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #0070ba;
+}
+/* caret */
+.navbar-assweb .navbar-nav > .dropdown > a .caret {
+    border-top-color: #777;
+    border-bottom-color: #777;
+}
+.navbar-assweb .navbar-nav > .dropdown > a:hover .caret,
+.navbar-assweb .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: #333;
+}
+.navbar-assweb .navbar-nav > .open > a .caret, 
+.navbar-assweb .navbar-nav > .open > a:hover .caret, 
+.navbar-assweb .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}
+/* mobile version */
+.navbar-assweb .navbar-toggle {
+    border-color: #DDD;
+}
+.navbar-assweb .navbar-toggle:hover,
+.navbar-assweb .navbar-toggle:focus {
+    background-color: #0070ba;
+}
+.navbar-assweb .navbar-toggle .icon-bar {
+    background-color: #CCC;
+}
+@media (max-width: 599px) {
+    .navbar-assweb .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+    .navbar-assweb .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-assweb .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+    }
+
+    .btn-circle, .btn-l {
+        width: 40px;
+        height: 40px;
+        padding: 6px 8px;
+        font-size: 1.5em;
+        line-height: 1.33;
+        border-radius: 20px;
+}
+	.footer-images {
+  		height: 75px;
+      width: auto;
+}
+
+}
+@media (min-width: 600px) {
+
+.footer-images {
+  min-height: 100px;
+  width: auto;
+  vertical-align: middle;
+
+}
+
+.btn-circle, .btn-l {
+  width: 60px;
+  height: 60px;
+  padding: 11px 16px;
+  font-size: 2em;
+  line-height: 1;
+  border-radius: 33px;
+}
+
+}
