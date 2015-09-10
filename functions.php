@@ -12,7 +12,7 @@ function theme_enqueue_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
 
-add_image_size( 'slider-image', 800, 300, array( 'left', 'top' ) );
+add_image_size( 'slider-image', 975, 234, true );
 
 /****************************************************************************************
  USE THIS TO INCLUDE ANY FILES AS THIS IS A CHILD THEME
@@ -253,12 +253,12 @@ $r = new WP_Query( apply_filters( 'widget_posts_args', array(
 ?>
 <div class="list-group">
 		<?php while ( $r->have_posts() ) : $r->the_post(); ?>
-			
-				<a href="<?php the_permalink(); ?>" class="list-group-item"><?php get_the_title() ? the_title() : the_ID(); ?></a>
+			<ul class="nav">
+				<li><a href="<?php the_permalink(); ?>" class=""><?php get_the_title() ? the_title() : the_ID(); ?></a></li>
 			<?php if ( $show_date ) : ?>
 				<span class="post-date"><?php echo get_the_date(); ?></span>
 			<?php endif; ?>
-		
+			</ul>
 		<?php endwhile; ?>
 		</div>
 

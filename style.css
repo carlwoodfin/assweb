@@ -15,6 +15,10 @@
 @import url(http://fonts.googleapis.com/css?family=Schoolbell);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
+html {
+  max-width: 96%;
+  margin: 0 auto;
+}
 .site-header-outer {
 	background-color: #106EB0;
     border-bottom: thick solid #FFDB45;
@@ -36,6 +40,13 @@
 }
 .headeraddress a:link {
 	color: #FFDB45;
+}
+
+#postCarousel.carousel.slide {
+  max-width: 975px;
+max-height: 234px;
+overflow: hidden;
+margin: 0 auto;
 }
 
 .safeguard-statement {
@@ -67,7 +78,7 @@
   color: #0070ba;
  }
 
- .year-work {
+.year-work {
     font-family: Schoolbell;
     display: block;
     padding-top: 20px;
@@ -76,6 +87,22 @@
 
 a.list-group-item:hover, a.list-group-item:focus {
   background-color: #f6f6f6;
+}
+
+/* SIDEBAR STYLES */
+
+.sidebar {
+background-color: rgb(232,244,252);
+}
+
+.widget-title {
+  color:#FFDB45;
+  
+}
+
+.nav>li>a:hover {
+  text-decoration: none;
+  background-color: #FFDB45;
 }
 
 /* navbar */
@@ -151,12 +178,12 @@ a.list-group-item:hover, a.list-group-item:focus {
     }
 
     .btn-circle, .btn-l {
-        width: 40px;
-        height: 40px;
+        width: 60px;
+        height: 60px;
         padding: 6px 8px;
         font-size: 1.5em;
         line-height: 1.33;
-        border-radius: 20px;
+        border-radius: 30px;
 }
 	.footer-images {
   		height: 75px;
@@ -174,12 +201,12 @@ a.list-group-item:hover, a.list-group-item:focus {
 }
 
 .btn-circle, .btn-l {
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   padding: 11px 16px;
-  font-size: 2em;
-  line-height: 1;
-  border-radius: 33px;
+  font-size: 3em;
+  line-height: 1em;
+  border-radius: 40px;
 }
 
 }

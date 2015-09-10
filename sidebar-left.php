@@ -11,7 +11,7 @@
 	<div class="sidebar col-md-3">
 	
 		<?php // add the class "panel" below here to wrap the sidebar in Bootstrap style ;) ?>
-		<div class="sidebar-padder ">
+		<div class="sidebar-padder">
 
 			<?php do_action( 'before_sidebar' ); ?>
 			<?php if ( is_active_sidebar( 'sidebar-left' ) ) : ?>

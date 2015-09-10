@@ -15,17 +15,11 @@
 <footer id="colophon" class="site-footer" role="contentinfo">
 <?php // substitute the class "container-fluid" below if you want a wider content area ?>
 	<div class="container">
-	<div class="row">
-	<div class="col-xs-12 col-sm-12">
-		<div class="media pull-right">
-  	<img src="<?php echo bloginfo('stylesheet_directory'); ?>/images/activemark.jpg" class="footer-images" />
-  	<img src="<?php echo bloginfo('stylesheet_directory'); ?>/images/asr.jpg" class="footer-images" />
-  	<img src="<?php echo bloginfo('stylesheet_directory'); ?>/images/es.jpg" class="footer-images" />
-  	<img src="<?php echo bloginfo('stylesheet_directory'); ?>/images/hst.jpg" class="footer-images" />
-  	<img src="<?php echo bloginfo('stylesheet_directory'); ?>/images/saa.jpg" class="footer-images" />
-  	</div>	
-	</div>
-	</div>
+	<?php 
+		if ( is_front_page() ) {	
+			get_template_part('content', 'footerimages');
+    }
+	?>
 		<div class="row">
 			<div class="site-footer-inner col-sm-12">
 			<div class="footer-address text-center">
