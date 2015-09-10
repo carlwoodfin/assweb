@@ -18,7 +18,8 @@
 	<?php 
 		if ( is_front_page() ) {	
 			get_template_part('content', 'footerimages');
-    }
+  	} else {
+  	}
 	?>
 		<div class="row">
 			<div class="site-footer-inner col-sm-12">

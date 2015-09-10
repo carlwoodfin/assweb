@@ -91,4 +91,5 @@
 <?php // substitute the class "container-fluid" below if you want a wider content area ?>
 	<div class="container">
 		<div class="row">
-			<div id="content" class="main-content-inner">
+			<div id="content" <?php if ( is_front_page() ) { echo 'class="main-content-inner col-md-12">'; } else { echo 'class="main-content-inner col-md-8">'; } ?>
+			
