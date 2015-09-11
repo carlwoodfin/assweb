@@ -90,39 +90,41 @@ get_header(); ?>
 
 
 
-<div class="col-xs-12 col-md-6">
+<div class="col-xs-12 col-sm-9">
 <h3 class="year-work text-center">Check out our blogs... Pick a year!</h3>
-<div class="col-xs-2 col-md-2">
+</div>
+<div class="col-sm-9">
+<div class="col-xs-4 col-sm-2 col-md-2">
 <p><a href="<?php echo get_post_type_archive_link( 'year-1' ); ?>">
     <button type="button" class="btn btn-glyph btn-circle btn-l">1</button>
     </a></p>
 </div>
-<div class="col-xs-2 col-md-2">
+<div class="col-xs-4 col-sm-2 col-md-2">
     <p><a href="<?php echo get_post_type_archive_link( 'year-2' ); ?>">
     <button type="button" class="btn btn-glyph btn-circle btn-l">2</button>
     </a></p>
 </div>
-<div class="col-xs-2 col-md-2">
+<div class="col-xs-4 col-sm-2 col-md-2">
     <p><a href="<?php echo get_post_type_archive_link( 'year-3' ); ?>">
     <button type="button" class="btn btn-glyph btn-circle btn-l">3</button>
     </a></p>
 </div>
-<div class="col-xs-2 col-md-2">
+<div class="col-xs-4 col-sm-2 col-md-2">
     <p><a href="<?php echo get_post_type_archive_link( 'year-4' ); ?>">
     <button type="button" class="btn btn-glyph btn-circle btn-l">4</button>
     </a></p>
 </div>
-<div class="col-xs-2 col-md-2">
+<div class="col-xs-4 col-sm-2 col-md-2">
     <p><a href="<?php echo get_post_type_archive_link( 'year-5' ); ?>">
     <button type="button" class="btn btn-glyph btn-circle btn-l">5</button>
     </a></p>
 </div>
-<div class="col-xs-2 col-md-2">
+<div class="col-xs-4 col-sm-2 col-md-2">
     <p><a href="<?php echo get_post_type_archive_link( 'year-6' ); ?>">
     <button type="button" class="btn btn-glyph btn-circle btn-l">6</button>
     </a></p>
     </div>
-    </div>
+  </div>
 
     <div class="col-xs-12">
     <hr>
